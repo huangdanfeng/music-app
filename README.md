@@ -1,6 +1,33 @@
-# vue-music
+# music-app
+   Vue2.x 音乐 App
+  **<font size=6>简介</font>**
+  
+  <a href="https://cesium.com/docs/tutorials/getting-started/" target="_blank">官方入门教程</a>
 
-> Vue2.x 音乐 App
+  **<font size=6>安装</font>**
+  
+  下载项目后，进入项目文件夹所在的终端
+
+```javascript
+  npm install
+```
+**<font size=6>打包</font>**
+  
+  下载项目后，进入项目文件夹所在的终端
+
+```javascript
+  npm run build
+```
+  
+  **<font size=6>启动</font>**
+
+  ```javascript
+    npm run dev
+  ```
+  
+  最后浏览器打开http://localhost:8080
+    
+  <img src="/dist/static/1.png"  width="300" height="400">
 
 ## 项目树
 ```
@@ -135,34 +162,6 @@
 │       ├── mutation-types.js
 │       ├── mutations.js
 │       └── state.js
-└── static
-    ├── 1.png
-    ├── 2.png
-    ├── 3.png
-    ├── 4.png
-    └── 5.png
 
 ```
-
-## 项目截图
-
-![image](./dist/static/1.png)
-
-![image](./dist/static/2.png)
-
-
-
-### 安装与运行
-
-```
-git clone https://github.com/songhaoreact/vue-music.git
-
-cd vue-music
-
-npm install
-
-npm run dev //服务端运行 访问 http://localhost:8080
-
-npm run build 项目打包 
-
 
